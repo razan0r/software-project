@@ -1,0 +1,85 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl; /* For right-to-left text */
+    background-color: #f9f9f9;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Content card styles */
+.content-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content-card img {
+    width: 100%;
+    height: auto;
+}
+
+.content-card h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.content-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.user-interaction {
+    margin-top: 10px;
+}
+
+.user-interaction img {
+    margin-right: 5px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    margin: 0 10px;
+}

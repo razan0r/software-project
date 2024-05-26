@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #2d3e50;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.auth-buttons {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.auth-buttons button {
+    background-color: #2d3e50;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.auth-buttons button.active {
+    background-color: white;
+    color: #2d3e50;
+}
+
+main {
+    margin: 20px;
+}
+
+.create-account {
+    margin: auto;
+    width: 300px;
+}
+
+.create-account h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.create-account form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.create-account label {
+    text-align: right;
+}
+
+.create-account input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.create-account button {
+    background-color: #2d3e50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #2d3e50;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-media a img {
+    width: 24px;
+    margin: 0 10px;
+}
